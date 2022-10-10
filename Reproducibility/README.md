@@ -1,4 +1,4 @@
-# ReadME: A3-Reproducibility
+# ReadME: Reproducibility
 
   * Course: **Human-centered Data-Science** (Prof. Claudia Müller-Birn)
 
@@ -8,13 +8,13 @@
 
   * Freie Universität Berlin, summerterm 2022
 
-Assignment 3 is divided into two topics: (3.1) _reproducible model training_ of the [southern german credit dataset](https://archive.ics.uci.edu/ml/datasets/South+German+Credit), and (3.2) _reproducing results_ of [Verma & Rubin (2018)](https://dl.acm.org/doi/10.1145/3194770.3194776) using the [german credit dataset](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)). 
+This assignment is divided into two topics: (3.1) _reproducible model training_ of the [southern german credit dataset](https://archive.ics.uci.edu/ml/datasets/South+German+Credit), and (3.2) _reproducing results_ of [Verma & Rubin (2018)](https://dl.acm.org/doi/10.1145/3194770.3194776) using the [german credit dataset](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)). 
 
 
 For 3.1. we will follow the _reproducible workflow_ stages that were presented during the lecture. The codesheet is documented and can stand alone. If you want to dive deeper into the workflow you may have a look at the notebook _reproducible workflow_ in this folder. The central questions we asked when working on the data analysis are stated and answered.
 
 
-The preprocessing of the dataset has been done in Assignment 2. Firstly it was done for the German Credit Dataset. Form there some problems with the dataset occured. IF you want more information on that you may check the folder A2_Data. Therefore the preprocessing has been done in the same way for the South German Credit Dataset, which you can also find in the folder A2_Data.
+The preprocessing of the dataset has been done in Assignment 2. Firstly it was done for the German Credit Dataset. Form there some problems with the dataset occured. IF you want more information on that you may check the folder <Data>. Therefore the preprocessing has been done in the same way for the South German Credit Dataset, which you can also find in the folder A2_Data.
 
 
 For 3.2. we tried to reproduce the results of the paper, following a quote of the paper on the steps that the authors have been doing in their analysis: For our discussion, we trained an off-the-shelf logistic regression classifier in Python. We applied the ten-fold cross-validation technique, using 90% of the data for training and the remaining 10% of the data for testing and illustrating each of the definitions. We used numerical and binary attributes directly as features in the classification and converted each categorical attribute to a set of binary features, arriving at 48 features in total. (Verma & Rubin, 2018)
@@ -39,8 +39,12 @@ Have a good time with the code and a steep learning curve!
 
 ## Repository structure 
 
-**codesheet** 						                        A3_Reproducibility.ipynb
-**codetable (South German Credit Data)**			    codetable.txt
-**German Credit Data human readable dataset**		  df_germanData_readable.csv
-**German Credit Data original dataset**			      gc_data.csv
-**South German Credit Data preprocessed data** 		south_german_credit_data_preprocessed.csv		
+**codesheet:** 						                             A3_Reproducibility.ipynb
+
+**codetable (South German Credit Data):**			      codetable.txt
+
+**German Credit Data human readable dataset:**		  df_germanData_readable.csv
+
+**German Credit Data original dataset:**			       gc_data.csv
+
+**South German Credit Data preprocessed data:** 		south_german_credit_data_preprocessed.csv		
