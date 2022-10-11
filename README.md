@@ -5,7 +5,7 @@
 * [Structure of the Repository](#structure-of-the-repository)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* 
+ 
 ## Introduction 
 
 This is work that was coded as sample solution for the class 'human-centered data science' at Freie Universität Berlin during the summer semester 2022. The teacher of the seminar was Lars Sipos, while the professor of the connected lecture ist Prof. Claudia Müller-Birn. 
@@ -15,14 +15,8 @@ The first exercise (Warm Up) follows a tutorial from Dr. Christoph Kinkeldey and
 ## Structure of the Repository
 Folder
 
-## Technologies
+## Technologies & Methods
 Python 3.6
 Libraries are found in the ReadMe of the Sub-Folders
   
-Pandas
-Matplotlib
-Requests
-XML
-Json Datetime
-
 ## Setup
