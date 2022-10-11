@@ -4,7 +4,7 @@
 * [Introduction](#introduction)
 * [Structure of the Repository](#structure-of-the-repository)
 * [Technologies](#technologies)
-* Setup(#setup)
+* [Setup](#setup)
 * 
 ## Introduction 
 
